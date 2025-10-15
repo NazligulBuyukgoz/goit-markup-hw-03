@@ -1,4 +1,4 @@
-.logo a {
+.logo {
   color: #2e2f42;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -33,13 +33,19 @@
   gap: 40px;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 40px;
   display: flex;
-  padding-right: 347px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-text a:hover {
@@ -78,7 +84,6 @@ a {
   margin: 0;
   padding: 100px 0;
   Width: %100;
-  Height: 300px;
 }
 
 .page-title {
@@ -112,14 +117,12 @@ a {
   background-color: #f4f4fd;
   padding: 80px 0;
   text-align: center;
-  width: %100;
-  height: 732px;
   top: 1016px;
 }
 
 .our-team-title {
   background-color: #F4F4FD;
-  padding: 40px 0;
+  padding: 0 0;
 }
 
 .team-list {
@@ -134,7 +137,6 @@ a {
 
 .team-list li {
   width: 264px;
-  height: 380px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -149,7 +151,7 @@ a {
 
 .team-list li img {
   width: 100%;
-  height: 100%;
+
   object-fit: cover;
   margin-bottom: 12px;
   border-radius: 0;
@@ -162,7 +164,7 @@ a {
 }
 
 .team-list li p {
-  margin: 4px 0 0 0;
+  margin: 0 0 0 0;
   font-size: 14px;
   color: #434455;
 }
@@ -183,7 +185,6 @@ section ul {
   padding: 0;
   margin: 0 auto;
   max-width: 1128px;
-  height: 204px;
   text-align: center;
   padding-top: 25px;
 }
@@ -192,7 +193,6 @@ section ul {
   text-align: center;
   padding: 60px 0;
   width: %100;
-  height: 1000px;
   top: 1868px;
 }
 
@@ -212,6 +212,14 @@ section ul {
   background-color: #ffffff;
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.our-portfolio li img {
+  display: block;
+  border-bottom: none;
 }
 
 section ul li {
@@ -250,7 +258,6 @@ section ul li {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  margin-left: 156px;
 }
 
 .page-footer-p {
@@ -259,7 +266,6 @@ section ul li {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  margin-left: 156px;
   top: 3088px;
 }
 
