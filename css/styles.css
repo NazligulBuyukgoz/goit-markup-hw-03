@@ -6,7 +6,6 @@
 
 .container {
   width: 1440px;
-  height: 3300px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
@@ -109,7 +108,6 @@ a {
   font-weight: 700;
   text-align: center;
   width: 496px;
-  height: 120px;
 }
 
 .link {
@@ -148,7 +146,7 @@ a {
   flex-direction: column;
   gap: 8px;
   width: 264px;
-  height: 104px;
+  margin-bottom: 120px;
 }
 
 .section-title {
