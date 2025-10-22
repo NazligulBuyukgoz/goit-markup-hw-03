@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 1440px;
+  height: 3300px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
+}
+
 .logoheader {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -23,6 +38,7 @@
 .logo-studio {
   color: #2e2f42;
 }
+
 .nav-text {
   margin-left: 76px;
   width: 261px;
@@ -44,15 +60,6 @@
   padding: 0;
   margin: 0;
   gap: 40px;
-}
-
-.header {
-  align-items: center;
-  display: flex;
-  border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
-  margin: 0 auto;
 }
 
 .nav-text a:hover {
@@ -88,8 +95,6 @@ a {
 .id-section {
   background-color: #2e2f42;
   text-align: center;
-  height: 600px;
-  width: 1440px;
   margin: 0 auto;
   padding-top: 188px;
   padding-left: 472px;
@@ -131,8 +136,8 @@ a {
 }
 
 .categories {
-  margin: 120px auto 0;
-  max-width: 1128px;
+  margin: 120px auto 0 120px;
+
   display: flex;
   justify-content: space-between;
   text-align: left;
@@ -174,9 +179,6 @@ a {
 
 .our-team-section {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
-  margin: 120px auto;
   padding: 120px 156px;
   box-sizing: border-box;
 }
@@ -227,8 +229,6 @@ section ul {
 }
 
 .our-portfolio {
-  width: 1128px;
-  height: 1000px;
   margin: 120px auto 0;
 }
 
@@ -274,8 +274,7 @@ section ul li {
 
 .page-footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
+
   padding-top: 100px;
   padding-left: 156px;
   margin: 120px auto;
