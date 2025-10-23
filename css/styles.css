@@ -134,7 +134,7 @@ a {
 }
 
 .categories {
-  margin: 120px auto 0 120px;
+  padding: 120px 0;
 
   display: flex;
   justify-content: space-between;
@@ -146,7 +146,7 @@ a {
   flex-direction: column;
   gap: 8px;
   width: 264px;
-  margin-bottom: 120px;
+  
 }
 
 .section-title {
@@ -191,7 +191,7 @@ a {
 }
 
 .name-title {
-  margin: 32px 16px;
+  padding: 32px 16px;
 }
 
 .name-list {
@@ -227,7 +227,7 @@ section ul {
 }
 
 .our-portfolio {
-  margin: 120px auto 0;
+  padding: 120px 0;
 }
 
 .our-portfolio ul {
@@ -267,15 +267,13 @@ section ul {
 section ul li {
   flex: 1;
   text-align: left;
-  padding-top: 25px;
 }
 
 .page-footer {
   background-color: #2e2f42;
-
   padding-top: 100px;
   padding-left: 156px;
-  margin: 120px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
